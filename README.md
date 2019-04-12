@@ -1,2 +1,7 @@
-# sqldump_table_split
-Script split huge MySQL tables created with mysqldump with --extended-insert option into several insert queries
+**Usage:**
+
+bash table_split.sh tabledump.sql
+
+**Change Insert query size:**
+
+change MAX_INSERT_SIZE variable
